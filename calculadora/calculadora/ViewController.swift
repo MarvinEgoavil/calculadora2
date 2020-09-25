@@ -21,7 +21,6 @@ class ViewController: UIViewController, CalculadoraProtocol {
                 print("ordena la resta")
             }else {
                 print("ResultadoResta")}
-            
             return resultadoResta
         
     }
