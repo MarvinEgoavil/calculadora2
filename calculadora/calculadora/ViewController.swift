@@ -110,6 +110,10 @@ class ViewController: UIViewController, CalculadoraProtocol {
             display.text="+"
         break
             
+        case "Opmodulo":
+            display.text="%"
+        break
+            
         case "Opigual":
             display.text="="
         break

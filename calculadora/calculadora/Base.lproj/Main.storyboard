@@ -126,8 +126,9 @@
                                 <rect key="frame" x="124" y="412" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Opmodulo"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title=".">
+                                <state key="normal" title="%">
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
