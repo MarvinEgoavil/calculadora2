@@ -84,11 +84,41 @@ class ViewController: UIViewController, CalculadoraProtocol {
         break
     
         default:
+            display.text=" "
+            break
             
         }
     }
     
-    override func viewDidLoad() {
+    @IBAction func nuevoOperador (sender :UIButton ) {
+        
+        switch sender.accessibilityIdentifier {
+        
+        case "Opdivision":
+            display.text="/"
+        break
+            
+        case "Opmulti":
+            display.text="x"
+        break
+            
+        case "Opresta":
+            display.text="-"
+        break
+            
+        case "Opsuma":
+            display.text="+"
+        break
+            
+        case "Opigual":
+            display.text="="
+        break
+        default:
+            display.text=""
+            break
+        }
+    
+        func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
